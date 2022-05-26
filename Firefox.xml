@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Test Basics 1">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="Tests.RunningSoftware" />
+            <class name="Tests.TestLoginSite" />
+            <class name="Tests.ShoppingOrderForm" />
+            <class name="Tests.CustomShirtConfigurator" />
+            <class name="Tests.TestUserAndPassword" />
+            <class name="Tests.BaseTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
