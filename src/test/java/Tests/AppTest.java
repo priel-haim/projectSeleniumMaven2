@@ -18,5 +18,6 @@ public class AppTest extends BaseTest{
     WebDriver driver = new ChromeDriver();
     driver.get("https://chocolatey.org/");
     driver.quit();
+    bh
     }
 }
